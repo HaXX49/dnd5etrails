@@ -1,114 +1,114 @@
 {
-  "id": "dnd5e",
-  "title": "DnD5e - Fifth Edition System",
-  "description": "A system for playing the fifth edition of the worlds most popular role-playing game in the Foundry Virtual Tabletop environment.",
-  "version": "2.0.3",
+  "id": "dnd5etrails",
+  "title": "DnD5e - The Trails Saga System",
+  "description": "A system for playing 5E DND games using mechanics from the Trails games.",
+  "version": "alpha1",
   "compatibility": {
     "minimum": "10",
     "verified": "10",
     "maximum": "10"
   },
-  "url": "https://github.com/foundryvtt/dnd5e/",
-  "manifest": "https://raw.githubusercontent.com/foundryvtt/dnd5e/master/system.json",
+  "url": "https://github.com/HaXX49/dnd5etrails",
+  "manifest": "https://raw.githubusercontent.com/HaXX49/dnd5etrails/master/system.json",
   "download": "https://github.com/foundryvtt/dnd5e/releases/download/release-2.0.3/dnd5e-release-2.0.3.zip",
   "authors": [
     {
-      "name": "Atropos",
-      "url": "https://foundryvtt.com"
+      "name": "DeadBeat00",
+      "url": "https://github.com/HaXX49/"
     }
   ],
   "scripts": [],
-  "esmodules": ["dnd5e.mjs"],
-  "styles": ["dnd5e.css"],
+  "esmodules": ["dnd5etrails.mjs"],
+  "styles": ["dnd5etrails.css"],
   "packs": [
     {
       "name": "heroes",
       "label": "Starter Heroes",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/heroes.db",
       "type": "Actor"
     },
     {
       "name": "monsters",
       "label": "Monsters (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/monsters.db",
       "type": "Actor"
     },
     {
       "name": "items",
       "label": "Items (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/items.db",
       "type": "Item"
     },
     {
       "name": "tradegoods",
       "label": "Trade Goods (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/tradegoods.db",
       "type": "Item"
     },
     {
       "name": "spells",
       "label": "Spells (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/spells.db",
       "type": "Item"
     },
     {
       "name": "backgrounds",
       "label": "Backgrounds (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/backgrounds.db",
       "type": "Item"
     },
     {
       "name": "classes",
       "label": "Classes (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/classes.db",
       "type": "Item"
     },
     {
       "name": "subclasses",
       "label": "Subclasses (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/subclasses.db",
       "type": "Item"
     },
     {
       "name": "classfeatures",
       "label": "Class Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/classfeatures.db",
       "type": "Item"
     },
     {
       "name": "races",
       "label": "Racial Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/races.db",
       "type": "Item"
     },
     {
       "name": "monsterfeatures",
       "label": "Monster Features (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/monsterfeatures.db",
       "type": "Item"
     },
     {
       "name": "rules",
       "label": "Rules (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/rules.db",
       "type": "JournalEntry"
     },
     {
       "name": "tables",
       "label": "Tables (SRD)",
-      "system": "dnd5e",
+      "system": "dnd5etrails",
       "path": "./packs/tables.db",
       "type": "RollTable"
     }
@@ -128,9 +128,9 @@
   ],
   "socket": true,
   "gridDistance": 5,
-  "gridUnits": "ft",
+  "gridUnits": "m",
   "primaryTokenAttribute": "attributes.hp",
-  "secondaryTokenAttribute": null,
+  "secondaryTokenAttribute": "attributes.ep",
   "flags": {
     "needsMigrationVersion": "2.0.2",
     "compatibleMigrationVersion": "0.8"
