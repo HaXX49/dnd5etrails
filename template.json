@@ -515,7 +515,7 @@
     }
   },
   "Item": {
-    "types": ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack"],
+    "types": ["weapon", "equipment", "consumable", "tool", "loot", "background", "class", "subclass", "spell", "feat", "backpack", "orbment", "quartz"],
     "templates": {
       "itemDescription": {
         "description": {
@@ -723,6 +723,54 @@
       "baseItem": "",
       "properties": {},
       "proficient": true
+    },
+    "quartz": {
+      "templates": ["itemDescription", "physicalItem"],
+      "element": "",
+      "intensity": "",
+      "elementalValue": "",
+      "properties": {}
+    },
+    "orbment": {
+      "templates": ["itemDescription", "physicalItem" ,"activatedEffect", "action", "mountable"],
+      "slots": {
+        "slot0": {
+          "quartz": "",
+          "open": true,
+          "powerline": "0"
+        },
+        "slot1": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        },
+        "slot2": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        },
+        "slot3": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        },
+        "slot4": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        },
+        "slot5": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        },
+        "slot6": {
+          "quartz": "",
+          "open": false,
+          "powerline": ""
+        }
+      },
+      "properties":{}
     }
   }
 }
